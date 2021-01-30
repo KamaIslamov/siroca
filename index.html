@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siroca Technology</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./src/libs/wow.js/animate.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="#"><img src="./src/img/header/logo.svg" alt="Logo" class="header__logo"></a>
+            <div class="d-flex">
+                <nav class="header__nav">
+                    <a class="header__nav-link" href="#advantage">О компании</a>
+                    <a class="header__nav-link" href="#projects">Наши продукты</a>
+                    <a class="header__nav-link" href="#">Франчайзинг</a>
+                    <a class="header__nav-link" href="#">Контакты</a>
+                </nav>
+                <select id="language">
+                    <option value="Eng">Eng</option>
+                    <option value="Eng">Rus</option>
+                </select>
+                <div class="burger-menu burger-menu--closed">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="mainscreen">
+        <div class="container">
+            <h2 class="mainscreen__title">Комплексная автоматизация <span>бизнес процессов</span></h2>
+            <h3 class="mainscreen__subtitle">Build better customer relationships with scalable messaging that provides a more personal experience for you and your customers.</h3>
+            <a href="#" class="mainscreen__btn">Оставить заявку</a>
+        </div>
+    </section>
+    <section class="company" id="company">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="company__title">
+                <span>40+</span>
+                <p>С нами уже сотрудничают 40 партнеров в 6 странах  СНГ и Юго-Восточной Азии</p>
+            </div>
+            <img src="./src/img/mainscreen/arrow_right.png" class="company__arrow" alt="Arrow">
+            <div class="mainscreen-swiper swiper-container" style="width: 75%;">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./src/img/mainscreen/segment.png" alt="Arrow"></div>
+                  <div class="swiper-slide"><img src="./src/img/mainscreen/sendgrid.png" alt="Arrow"></div>
+                  <div class="swiper-slide"><img src="./src/img/mainscreen/toast.png" alt="Arrow"></div>
+                  <div class="swiper-slide"><img src="./src/img/mainscreen/adroll.png" alt="Arrow"></div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <section class="advantage" id="advantage">
+        <div class="container d-flex flex-column">
+            <h2 class="advantage__title wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s">Наши <span style="color: #115afb;">преимущества</span></h2>
+            <p class="advantage__subtitle wow fadeInUp" data-wow-duration="0.8" data-wow-delay="0.5s">Деятельность нашей компании направлена на предоставление современных ИТ инструментов по автоматизации бизнес процессов и мы продолжаем  расширять границы сотрудничества. </p>
+            <div class="advantage__cards d-flex align-items-center justify-content-between">
+                <div class="advantage__card d-flex flex-column align-items-center justify-content-between wow fadeInLeft" data-wow-duration="0.8" data-wow-delay="1.2s">
+                    <img src="./src/img/advantage/card1.png" alt="card1">
+                    <span class="advantage__card-title">50 Партнеров</span>
+                    <p class="advantage__card-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, </p>
+                </div>
+                <div class="advantage__card d-flex flex-column align-items-center justify-content-between wow fadeInUp" data-wow-duration="0.8" data-wow-delay="1.6s">
+                    <img src="./src/img/advantage/card2.png" alt="card1">
+                    <span class="advantage__card-title">11 Лет опыта</span>
+                    <p class="advantage__card-subtitle">Muffin lemon drops toffee. Pudding tootsie roll brownie jelly beans.</p>
+                </div>
+                <div class="advantage__card d-flex flex-column align-items-center justify-content-between wow fadeInRight" data-wow-duration="0.8" data-wow-delay="1.2s">
+                    <img src="./src/img/advantage/card3.png" alt="card1">
+                    <span class="advantage__card-title">10 000 рабочих мест</span>
+                    <p class="advantage__card-subtitle">Muffin lemon drops toffee. Pudding tootsie roll brownie jelly beans.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="container d-flex flex-column align-items-center">
+            <h2 class="projects__title">Наши <span style="color: #115afb;">проекты</span></h2>
+            <div class="projects__cards d-flex justify-content-between">
+                <div class="projects__cards1 d-flex flex-column">
+                    <div class="projects__card d-flex wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div class="projects__card-img"></div>
+                        <div class="projects__card-info">
+                            <img src="./src/img/projects/card1.png" alt="card">
+                            <h2>ЛИС</h2>
+                            <span>Лабораторная информационная система</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="projects__card d-flex wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">
+                        <div class="projects__card-img"></div>
+                        <div class="projects__card-info">
+                            <img src="./src/img/projects/card3.png" alt="card">
+                            <h2>МИС</h2>
+                            <span>Медицинская информационная система</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="projects__card d-flex wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.8s">
+                        <div class="projects__card-img"></div>
+                        <div class="projects__card-info">
+                            <img src="./src/img/projects/card4.png" alt="card">
+                            <h2>Middleware</h2>
+                            <span>Лабораторная информационная система</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="projects__card d-flex">
+                        <div class="projects__card-img"></div>
+                        <div class="projects__card-info">
+                            <img src="./src/img/projects/card4.png" alt="card">
+                            <h2>Электронная библиотека</h2>
+                            <span>Лабораторная информационная система</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects__cards2 d-flex flex-column">
+                    <div class="projects__card d-flex wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.2s">
+                        <div class="projects__card-img"></div>
+                        <div class="projects__card-info">
+                            <img src="./src/img/projects/card2.png" alt="card">
+                            <h2>Мобильные приложения</h2>
+                            <span>Интегрируемые в наши информационные системы </span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="projects__card d-flex wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.4s">
+                        <div class="projects__card-img"></div>
+                        <div class="projects__card-info">
+                            <img src="./src/img/projects/card4.png" alt="card">
+                            <h2>E-school</h2>
+                            <span>Система автоматизации образовательных учреждений</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="projects__card d-flex wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.8s">
+                        <div class="projects__card-img"></div>
+                        <div class="projects__card-info">
+                            <img src="./src/img/projects/card2.png" alt="card">
+                            <h2>Call Center</h2>
+                            <span>Лабораторная информационная система</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="projects__card d-flex">
+                        <div class="projects__card-img"></div>
+                        <div class="projects__card-info">
+                            <img src="./src/img/projects/card4.png" alt="card">
+                            <h2>Middleware</h2>
+                            <span>Лабораторная информационная система</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="opacity__block"></div>
+            </div>
+            <button class="projects__btn wow fadeInUp"  data-wow-duration="1s" data-wow-delay="1.2s">Все проекты</button>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <h2 class="reviews__title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Отзывы наших <span style="color: #115afb;">партнеров</span></h2>
+            <div class="reviews__block">
+                <div class="text">
+                    <div class="text-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sitLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+                        <h4>Чернов Р.</h4>
+                        <span>Директор по развитию</span>
+                    </div>
+                    <div class="text-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sitLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+                        <h4>Чернов АР.</h4>
+                        <span>Директор по развитию</span>
+                    </div>
+                    <div class="text-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sitLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+                        <h4>Чернов выфвфывР.</h4>
+                        <span>Директор по развитию</span>
+                    </div>
+                    <div class="text-block">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sitLorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+                        <h4>Чернов ывфвР.</h4>
+                        <span>Директор по развитию</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews__schedule">
+            <img class="reviews__schedule-line" src="./src/img/schedule/line1.png" alt="">
+            <img class="reviews__schedule-line" src="./src/img/schedule/line2.png" alt="">
+            <div class="reviews__schedule-card card1 d-flex align-items-center wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s"><img src="./src/img/mainscreen/segment.png" alt=""></div>
+            <div class="reviews__schedule-card card2 d-flex minicard align-items-center wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s"><img src="./src/img/mainscreen/toast.png" alt=""></div>
+            <div class="reviews__schedule-card card3 d-flex wow align-items-center fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s"><img src="./src/img/mainscreen/segment.png" alt=""></div>
+            <div class="reviews__schedule-card card4 d-flex minicard wow align-items-center fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s"><img src="./src/img/mainscreen/toast.png" alt=""></div>
+            <div class="reviews__schedule-card card5 d-flex wow align-items-center fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s"><img src="./src/img/mainscreen/adroll.png" alt=""></div>
+            <div class="reviews__schedule-card card6 d-flex wow align-items-center fadeInUp"  data-wow-duration="1s" data-wow-delay="0.5s"><img src="./src/img/mainscreen/toast.png" alt=""></div>
+        </div> 
+    </section>
+    <section class="development">
+        <div class="container">
+            <div class="development__title wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Последние <span style="color: #115afb;">разработки</span></div>
+            <div class="development__subtitle wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">Мы не стоим на месте и развиваем наши проекты. Основная наша задача - предоставить инструмент, решающий реальные задачи и проблемы, с которыми сталкиваются наши партнеры.</div>
+            <div class="development__swiper swiper-container wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
+                <div class="swiper-wrapper">
+                  <div class="development__swiper-card swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./src/img/development/card1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <img src="./src/img/development/cardimg1.png" alt="">
+                            <h5 class="card-title">Склад</h5>
+                            <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="development__swiper-card swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./src/img/development/card3.png" alt="Card image cap">
+                        <div class="card-body">
+                            <img src="./src/img/development/cardimg1.png" alt="">
+                            <h5 class="card-title">Склад</h5>
+                            <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="development__swiper-card swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./src/img/development/card1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <img src="./src/img/development/cardimg1.png" alt="">
+                            <h5 class="card-title">Склад</h5>
+                            <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="development__swiper-card swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./src/img/development/card2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <img src="./src/img/development/cardimg1.png" alt="">
+                            <h5 class="card-title">Склад</h5>
+                            <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="development__swiper-card swiper-slide">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="./src/img/development/card1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <img src="./src/img/development/cardimg1.png" alt="">
+                            <h5 class="card-title">Склад</h5>
+                            <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam</div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="cooperation">
+        <div class="container d-flex flex-column align-items-center flex-wrap">
+            <div class="cooperation__title wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.4s">С нами уже <span style="color: #115afb;">сотрудничают</span></div>
+            <div class="cooperation__subtitle wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.6s">40 партнеров в 6 странах СНГ и Юго-Восточной Азии</div>
+            <div class="cooperation__gallery d-flex align-items-center">
+                <img src="./src/img/cooperation/comp1.png" alt="" class="wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.8s">
+                <img src="./src/img/cooperation/comp2.png" alt="" class="wow fadeInLeft"  data-wow-duration="1s" data-wow-delay="0.8s">
+                <img src="./src/img/cooperation/comp3.png" alt="" class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.8s">
+                <img src="./src/img/cooperation/comp4.png" alt="" class="wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.8s">
+                <img src="./src/img/cooperation/comp1.png" alt="" class="wow fadeInRight"  data-wow-duration="1s" data-wow-delay="0.8s">
+                <img src="./src/img/cooperation/comp2.png" alt="" class="wow fadeInRight"  data-wow-duration="1s" data-wow-delay="0.8s">
+            </div>
+            <a href="#" class="cooperation__btn wow fadeInUp"  data-wow-duration="1s" data-wow-delay="0.8s">
+                Оставить заявку
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container d-flex align-items-center justify-content-between">
+                <img src="./src/img/footer/whitelogo.svg" alt="Logo">
+                <nav class="footer__top-nav d-flex">
+                    <a href="#" class="footer__top-link">О компании</a>
+                    <a href="#" class="footer__top-link">Наши проекты</a>
+                    <a href="#" class="footer__top-link">Франчайзинг</a>
+                    <a href="#" class="footer__top-link">Контакты</a> 
+                </nav>
+                <div class="footer__top-social">
+                    <a href="#"><img src="./src/img/footer/fb.svg" alt="Facebook"></a>
+                    <a href="#"><img src="./src/img/footer/twitter.svg" alt="Twitter"></a>
+                    <a href="#"><img src="./src/img/footer/youtube.svg" alt="Youtube"></a>
+                    <a target="_blank" href="https://www.instagram.com/siroca_technology/"><img src="./src/img/footer/ig.svg" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div>Copyright © 2020 Siroca. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./src/js/jquery/jquery.min.js"></script>
+<script src="./src/libs/wow.js/wow.min.js"></script>
+<script src="./src/js/siroca.js"></script>
+</body>
+</html>

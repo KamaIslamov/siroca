@@ -1,0 +1,36 @@
+.footer {
+    display: none;
+    &__top {
+        background: #11142D;
+        padding: 27px 0;
+        &-nav {
+            a {
+                color: white;
+                margin-right: 30px;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 160%;
+                /* identical to box height, or 26px */
+
+                letter-spacing: -0.03em;
+
+                color: #FFFFFF;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+        &-social {
+            a {
+                margin-left: 25px;
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    &__bottom {
+        padding: 10px 0;
+        background: #050615;
+    }
+}

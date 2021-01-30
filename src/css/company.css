@@ -1,0 +1,24 @@
+.company__block {
+  width: 100%;
+}
+.company__title {
+  border: 2px solid #DBDBDB;
+  box-sizing: border-box;
+  border-radius: 37px;
+}
+.company__title span {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 150%;
+  /* identical to box height, or 54px */
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+.company__title p {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 150%;
+  /* or 15px */
+  letter-spacing: -0.03em;
+  color: rgba(101, 101, 101, 0.8);
+}

@@ -1,0 +1,30 @@
+.company {
+    padding-bottom: 12px;
+    &__block {
+        width: 100%;
+    }
+    &__title {
+        width: 220px;
+        padding: 22px 32px 25px 26px;
+        border: 2px solid #DBDBDB;
+        box-sizing: border-box;
+        border-radius: 37px;
+        span {
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 150%;
+            letter-spacing: -0.03em;
+            color: #000000; 
+        } 
+        p {
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 150%;
+            letter-spacing: -0.03em;
+            color: rgba(101, 101, 101, 0.8);
+        }
+    }
+    &__arrow {
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,170 @@
+.reviews {
+    padding-top: 46px;
+    &__title {
+        width: 100%;
+        max-width: 490px;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 120%;
+        /* or 58px */
+
+        letter-spacing: -0.03em;
+
+        color: #000000;
+    }
+    &__block {
+        transform: scale(1.7);
+        width: 100%;
+        max-width: 345px;
+        height: 175px;
+        margin: 75px auto;
+        padding: 52px 23px 19px 29px;
+        background: url("./../img/reviews/block_bg.png") no-repeat;
+        background-position: 30px 30px;
+        box-shadow: -17px 26px 22px -1px rgba(152, 161, 218, 0.09);
+        border-radius: 17px;
+        p {
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 160%;
+            color: rgba(0, 0, 0, 0.8);
+        }
+        h4 {
+            font-weight: 800;
+            font-size: 14px;
+            line-height: 160%;
+            color: rgba(0, 0, 0, 0.8);
+            margin-bottom: 0;
+        }
+        span {
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 160%;
+            color: #A5A5A5;
+        }
+    }
+    &__schedule {
+        height: 338px;
+        width: 100%;
+        margin-top: 100px;
+        position: relative;
+        &-line {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        &-card {
+            position: absolute;
+            border-radius: 50%;
+            img {
+                width: 100%;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                left: 0;
+                right: -20px;
+                bottom: -20px;
+                border: 1px solid;
+                opacity: 0;
+                animation: circle linear 1.5s infinite;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                left: 0;
+                right: -20px;
+                bottom: -20px;
+                border: 1px solid;
+                opacity: 0;
+                animation: circle linear 1.5s infinite;
+                animation-delay: 0.5s;
+            }
+        }
+        .minicard {
+            border-radius: 50%;
+            left: 357px; 
+            background: #43D8C3;
+            &::after, &::before {
+                border-color: #43D8C3;
+            }
+        }
+        .card1 {
+            width: 119px;
+            height: 119px;
+            &::after, &::before {
+                border-color: burlywood;
+            }
+            left: 18%;
+            top: -15%;
+            background: #F9D195;
+        }
+        .card2 {
+            width: 56px;
+            height: 56px;
+            left: 28%;
+            top: 47%;
+        }
+        .card3 {
+            width: 110px;
+            height: 110px;
+            left: 35%;
+            top: 55%;
+            background: #F9D195;
+            &::after, &::before {
+                border-color: burlywood;
+            }
+        }
+        .card4 {
+            width: 55px;
+            height: 55px;
+            left: 63%;
+            top: 40%;
+            background: #115AFB;
+            &::after, &::before {
+                border-color: #115AFB;
+            }
+        }
+        .card5 {
+            width: 94px;
+            height: 94px;
+            left: 65%;
+            top: 0%;
+            background: #115AFB;
+            &::after, &::before {
+                border-color: #115AFB;
+            } 
+        }
+        .card6 {
+            width: 119px;
+            height: 119px;
+            left: 75%;
+            top: 70%;
+            background: #115AFB; 
+            &::after, &::before {
+                border-color: #115AFB;
+            }
+        }
+    }
+}
+
+@keyframes circle {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}

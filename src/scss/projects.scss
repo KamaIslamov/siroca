@@ -1,0 +1,100 @@
+.projects {
+    padding-bottom: 85px;
+    &__title {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 120%;
+        /* identical to box height, or 58px */
+
+        text-align: center;
+        letter-spacing: -0.03em;
+
+        color: #000000;
+    }
+    &__cards {
+        width: 100%;
+        margin-top: 30px;
+        height: 700px;
+        overflow: hidden;
+        transition: 0.5s all;
+        position: relative;
+        &.active {
+            height: 1000px;
+            transition: 0.5s all;
+        }
+    }
+    &__card {
+        width: 545px;
+        margin-top: 30px;
+        padding: 26px 32px;
+        background: #FFFFFF;
+        border: 1px solid #F1F1F1;
+        box-sizing: border-box;
+        border-radius: 24px;
+        &-img {
+            width: 167px;
+            height: 167px;
+            background: #EEF9FF;
+            border-radius: 24px;
+        }
+        &-info {
+            margin-left: 40px;
+            width: 50%;
+            h2 {
+                font-weight: 800;
+                font-size: 20px;
+                line-height: 100%;
+                /* identical to box height, or 20px */
+                letter-spacing: -0.03em;
+                margin-top: 21px;
+                color: #000000;
+                width: 120%;
+            }
+            span {
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 160%;
+                margin-top: 6px;
+                color: rgba(0, 0, 0, 0.8);
+            }
+            a {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 100%;
+                color: #000000;
+                display: block;
+                margin-top: 20px;
+            }
+        }
+    }
+    &__btn {
+        display: inline-block;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 160%;
+        outline: none;
+        text-align: center;
+        letter-spacing: -0.03em;
+        border: 1px solid #115AFB;
+        box-sizing: border-box;
+        border-radius: 25px;
+        color: #115AFB;
+        padding: 8px 90px;
+        margin-top: 80px;
+        &:focus {
+            outline: none;
+        }
+    }
+    .opacity__block {
+        width: 100%;
+        height: 160px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.5s all;
+        background: linear-gradient(358.4deg, #FFFFFF -5.53%, rgba(255, 255, 255, 0) 141.75%);
+        &.none {
+            opacity: 0;
+        }
+    }
+}
