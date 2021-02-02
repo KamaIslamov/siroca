@@ -35,12 +35,15 @@ var swiper = new Swiper('.mainscreen-swiper', {
     autoplay: {
         delay: 0
     },  
+    updateOnWindowResize: true,
     breakpoints: {
         0: {
             slidesPerView: "auto",
             spaceBetween: 20,
-            autoplay: true,
-            speed: 300, 
+            autoplay: {
+                delay: 3000,
+            },
+            speed: 5000, 
         },
         767: {
             slidesPerView: 3,

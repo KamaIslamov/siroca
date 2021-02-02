@@ -1,4 +1,4 @@
-@import './../fonts/avenir/stylesheet.css';
+@import './../fonts/GothamPro/stylesheet.css';
 
 * {
     padding: 0;
@@ -19,7 +19,7 @@ a:hover {
 }
 
 body {
-    font-family: 'Avenir', sans-serif;
+    font-family: "GothamPro", sans-serif;
 
 }
 
@@ -31,6 +31,7 @@ body {
 @import "mainscreen.scss";
 @import "company.scss";
 @import "advantage.scss";
+@import "advantage2.scss";
 @import "projects.scss";
 @import "reviews.scss";
 @import "development.scss";

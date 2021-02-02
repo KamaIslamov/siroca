@@ -1,8 +1,8 @@
 .mainscreen {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(https://sdo.svgu.ru/pluginfile.php/28285/course/overviewfiles/RFg3n.jpg);
-    background-size: cover;
+    background: url('./../img/mainscreen/bg.svg') no-repeat;
+    background-position: 90% 50px;
     &__title {
         font-weight: 900;
         font-size: 40px;
