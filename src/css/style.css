@@ -120,6 +120,9 @@ body .burger-menu--opened .bar:nth-of-type(3) {
   background: url("./../img/mainscreen/bg.svg") no-repeat;
   background-position: 90% 50px;
 }
+.mainscreen img {
+  display: none;
+}
 .mainscreen__title {
   font-weight: 900;
   font-size: 40px;
@@ -413,10 +416,12 @@ body .burger-menu--opened .bar:nth-of-type(3) {
 
 .reviews {
   padding-top: 46px;
+  background: url("./../img/reviews/lines.svg");
+  background-position: -40px;
 }
 .reviews__title {
   width: 100%;
-  max-width: 490px;
+  text-align: center;
   font-weight: 900;
   font-size: 48px;
   line-height: 120%;
@@ -425,34 +430,38 @@ body .burger-menu--opened .bar:nth-of-type(3) {
   color: #000000;
 }
 .reviews__block {
-  transform: scale(1.7);
   width: 100%;
-  max-width: 345px;
-  height: 175px;
-  margin: 75px auto;
-  padding: 52px 23px 19px 29px;
-  background: url("./../img/reviews/block_bg.png") no-repeat;
-  background-position: 30px 30px;
+  max-width: 724px;
+  height: 393px;
+  margin: 100px auto 0;
+  background-color: white;
+  padding: 0 60px;
   box-shadow: -17px 26px 22px -1px rgba(152, 161, 218, 0.09);
   border-radius: 17px;
 }
 .reviews__block p {
+  font-style: normal;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 160%;
+  /* or 22px */
   color: rgba(0, 0, 0, 0.8);
 }
 .reviews__block h4 {
+  font-style: normal;
   font-weight: 800;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 160%;
+  /* or 38px */
   color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 0;
 }
 .reviews__block span {
+  font-style: normal;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 14px;
   line-height: 160%;
+  /* or 22px */
+  /* #A5A5A5 */
   color: #A5A5A5;
 }
 .reviews__schedule {
@@ -720,6 +729,10 @@ body .burger-menu--opened .bar:nth-of-type(3) {
     width: 270px;
   }
 
+  .mainscreen {
+    background-position: 100% 50px;
+  }
+
   .projects__card {
     width: 445px;
   }
@@ -740,6 +753,15 @@ body .burger-menu--opened .bar:nth-of-type(3) {
   .mainscreen {
     padding-top: 30px;
     padding-bottom: 50px;
+    background: none;
+    text-align: center;
+  }
+  .mainscreen img {
+    display: inline;
+    width: 100%;
+  }
+  .mainscreen__subtitle {
+    max-width: 100%;
   }
 
   .advantage {
@@ -752,6 +774,19 @@ body .burger-menu--opened .bar:nth-of-type(3) {
   }
   .advantage__card {
     margin-top: 30px;
+  }
+
+  .advantage2 {
+    width: 100%;
+  }
+  .advantage2__img {
+    display: none;
+  }
+  .advantage2__info {
+    margin-top: 50px;
+  }
+  .advantage2__title {
+    font-size: 35px;
   }
 
   .projects__cards {
@@ -767,6 +802,9 @@ body .burger-menu--opened .bar:nth-of-type(3) {
   }
   .projects__title {
     font-size: 30px;
+  }
+  .projects .opacity__block {
+    height: 260px;
   }
 
   .reviews__block {

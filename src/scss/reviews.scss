@@ -1,8 +1,10 @@
 .reviews {
     padding-top: 46px;
+    background: url('./../img/reviews/lines.svg');
+    background-position: -40px;
     &__title {
         width: 100%;
-        max-width: 490px;
+        text-align: center;
         font-weight: 900;
         font-size: 48px;
         line-height: 120%;
@@ -13,35 +15,44 @@
         color: #000000;
     }
     &__block {
-        transform: scale(1.7);
         width: 100%;
-        max-width: 345px;
-        height: 175px;
-        margin: 75px auto;
-        padding: 52px 23px 19px 29px;
-        background: url("./../img/reviews/block_bg.png") no-repeat;
-        background-position: 30px 30px;
+        max-width: 724px;
+        height: 393px;
+        margin: 100px auto 0;
+        background-color: white;
+        padding: 0 60px;
+        // background: url("./../img/reviews/block_bg.png") no-repeat;
         box-shadow: -17px 26px 22px -1px rgba(152, 161, 218, 0.09);
         border-radius: 17px;
         p {
+            font-style: normal;
             font-weight: 500;
-            font-size: 10px;
-            line-height: 160%;
-            color: rgba(0, 0, 0, 0.8);
-        }
-        h4 {
-            font-weight: 800;
             font-size: 14px;
             line-height: 160%;
-            color: rgba(0, 0, 0, 0.8);
-            margin-bottom: 0;
-        }
-        span {
-            font-weight: 500;
-            font-size: 10px;
+            /* or 22px */
+            
+            
+            color: rgba(0, 0, 0, 0.8);        }
+        h4 {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
             line-height: 160%;
-            color: #A5A5A5;
-        }
+            /* or 38px */
+            
+            
+            color: rgba(0, 0, 0, 0.8);        }
+        span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 160%;
+            /* or 22px */
+            
+            
+            /* #A5A5A5 */
+            
+            color: #A5A5A5;        }
     }
     &__schedule {
         height: 338px;
